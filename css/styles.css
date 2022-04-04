@@ -56,16 +56,15 @@ h1 {
   right: 24%;
 }
 
-@media
-  (max-width: 990px)
-  {
+@media (max-width: 990px) {
   .title-image {
     padding-top: 50px;
     position: static;
-    transform:rotate(0);
+    transform: rotate(0);
     width: 50%;
     right: 17%
   }
+
   #title {
     text-align: center;
   }
@@ -94,7 +93,7 @@ h3 {
 
 #features {
   text-align: center;
-  padding: 100px 180px;
+  padding: 80px 30px;
   background-color: white;
   position: relative;
   z-index: 1;
@@ -102,7 +101,7 @@ h3 {
 
 .feature-box {
   text-align: center;
-  padding: 20px 40px;
+  padding: 20px 58px;
   line-height: 1.5;
 }
 
@@ -142,7 +141,7 @@ h2 {
 }
 
 .carousel-box {
-  padding: 0 80px;
+  padding: 20px 10px;
 }
 
 /* pricing */
@@ -156,28 +155,28 @@ h2 {
 }
 
 /* call to action */
-
 #cta {
   text-align: center;
   background-color: #ff4c68;
-  padding: 5% 23%;
+  padding: 2% 7%;
 }
+
 .cta-text {
   font-family: Montserrat;
   margin: 10% 0;
   font-size: 40px;
-  font-weight:600;
+  font-weight: 600;
   line-height: 1.5;
   color: white;
 }
+
 .btncta {
-  margin: 50px 10px 10px 15px;
+  margin: 40px 10px 10px 10px;
   border: 0.8;
 }
 
-
 /* Footer */
-#footer{
+#footer {
   background-color: #fff;
   margin: 2% 0;
   text-align: center;
@@ -185,12 +184,14 @@ h2 {
   color: #495371;
   font-size: 1rem;
 }
-.footerico{
+
+.footerico {
   text-align: center;
   color: #203239;
-  margin:20px 18px 20px;
+  margin: 20px 18px 20px;
   width: 3px;
 }
+
 /* .top{
   display: inline-block;
   position:  absolute;
